@@ -6,9 +6,9 @@ API_HASH = getenv("API_HASH", "1df95189c95e8ff2b9cf182d51cdc165") #optional
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1764984007").split()))
 OWNER_ID = int(getenv("OWNER_ID", "5659722901"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Suraj:sahil11@sahiil11.rqe6gne.mongodb.net/?retryWrites=true&w=majority")
-BOT_TOKEN = getenv("BOT_TOKEN", "5937314994:AAHj5OyPyuvOhfFrs_3wKYIbu_xzQrL-6dI")
-ALIVE_PIC = getenv("ALIVE_PIC")
-ALIVE_TEXT = getenv("ALIVE_TEXT")
+BOT_TOKEN = getenv("BOT_TOKEN", "5809178316:AAEPauc8URuaQK38IqgML8aOAecTKhoM918")
+ALIVE_PIC = getenv("ALIVE_PIC", "https://te.legra.ph/file/57d991f755f729aea58bd.mp4")
+ALIVE_TEXT = getenv("ALIVE_TEXT", "༄ᶦᶰᵈ᭄❦𝑺𝒂𝒉𝒊𝒍✍✯༈༻ᵏⁱⁿᴳ")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
